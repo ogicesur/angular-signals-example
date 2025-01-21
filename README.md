@@ -1,27 +1,37 @@
-# AngularSignalsExample
+# Angular Signals Example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+This project demonstrates the use of **Angular Signals**, showcasing their implementation and usage in an Angular application. The example includes state management, reactive updates, and component interaction using Angular's signals.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## **Features**
+- **Signal-Based State Management**: Demonstrates how to manage and update application state using signals.
+- **Component Communication**: Showcases interaction between components using signals.
+- **Real-Time Updates**: Provides an example of real-time, reactive UI updates based on state changes.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## **Getting Started**
 
-## Build
+### **Prerequisites**
+Ensure you have the following installed:
+- **Node.js** (v14.x or later)
+- **Angular CLI** (v15.x or later)
+- **Git**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
+Clone the repository:
+```bash
+git clone https://github.com/your-username/angular-signals-example.git
+```
 
-## Running unit tests
+### Install Dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the following command to install all required dependencies:\
+`npm install`
 
-## Running end-to-end tests
+### Run the Development Server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Start the application in development mode:\
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+`npm start`
